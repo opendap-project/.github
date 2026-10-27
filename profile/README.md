@@ -32,7 +32,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [faceplate-touch](https://github.com/opendap-project/faceplate-touch) | The T1's default faceplate: touch display, status LED, microphone |
 | | [faceplate-cassette](https://github.com/opendap-project/faceplate-cassette) | Inspired by cassette Walkmans |
 | | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by classic portable music players |
-| Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | HAT Case Standard for accessory developers |
+| Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | OpenDAP HAT Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
 | Software | [system](https://github.com/opendap-project/system) | Blackbird OS system software and SDK (Rust) |
 | | [blackbird-ui](https://github.com/opendap-project/blackbird-ui) | Blackbird UI: the Engineered Matter design system, tokens, icons and the UI of Blackbird OS |
@@ -65,7 +65,7 @@ Faceplates are interchangeable front modules; HATs are accessories mounted on th
 | Content | License |
 |---|---|
 | Hardware of OpenDAP products (schematics, PCB, mechanics) | [CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt) |
-| Hardware building blocks others combine into their own designs: part libraries, HAT Case Standard reference designs, every `export/` folder | [CERN-OHL-W-2.0](https://ohwr.org/cern_ohl_w_v2.txt) |
+| Hardware building blocks others combine into their own designs: part libraries, OpenDAP HAT Standard reference designs, every `export/` folder | [CERN-OHL-W-2.0](https://ohwr.org/cern_ohl_w_v2.txt) |
 | Software | [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html) |
 | Software libraries others build on: SDK, design system, schemas | [MPL-2.0](https://www.mozilla.org/MPL/2.0/) |
 | Firmware, project templates | [MIT](https://opensource.org/license/mit) |
