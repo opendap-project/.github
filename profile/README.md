@@ -32,20 +32,13 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [faceplate-touch](https://github.com/opendap-project/faceplate-touch) | The T1's default faceplate: touch display, status LED, microphone |
 | | [faceplate-cassette](https://github.com/opendap-project/faceplate-cassette) | Inspired by cassette Walkmans |
 | | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by classic portable music players |
-| Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | OpenDAP HAT Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
 | Software | [blackbird](https://github.com/opendap-project/blackbird) | Blackbird OS, the device platform of OpenDAP: the OS image, system software in Rust, Blackbird UI and the virtual devices |
 | Desktop and CLI | [host](https://github.com/opendap-project/host) | What runs on the user's computer: the `opendap` command-line tool, for advanced users and package developers, and OpenDAP Desktop, the desktop app (Rust) |
 | Developer Toolkit | [tools](https://github.com/opendap-project/tools) | Maintainers' tools, one folder per domain: host setup; image, sysroot, cross-build and deploy; fab packages, CAD exports, part data and the component export contract; verification from simulations and captured samples; shared pre-commit hooks |
 | | [claude-plugins](https://github.com/opendap-project/claude-plugins) | Contributor skills and a commit-check hook for working in OpenDAP repositories |
 | Libraries | [libs](https://github.com/opendap-project/libs) | Shared design libraries, one folder per tool: KiCad symbols, footprints, 3D models and fab design rules; per-part records and the manifest of datasheets and vendor models; FreeCAD mechanical parts; Blender materials, models and scenes |
-| Official HATs | [hat-powerbank](https://github.com/opendap-project/hat-powerbank) | Powerbank |
-| | [hat-nas](https://github.com/opendap-project/hat-nas) | SSD and Ethernet |
-| | [hat-camera](https://github.com/opendap-project/hat-camera) | Action camera |
-| | [hat-recorder](https://github.com/opendap-project/hat-recorder) | Recorder inspired by Tascam |
-| | [hat-oscilloscope](https://github.com/opendap-project/hat-oscilloscope) | Oscilloscope based on the DS212 |
-| | [hat-vna](https://github.com/opendap-project/hat-vna) | Vector network analyzer based on NanoVNA |
-| | [hat-radio](https://github.com/opendap-project/hat-radio) | SDR based on HackRF Pro |
+| HATs | [hats](https://github.com/opendap-project/hats) | The OpenDAP HAT Standard for accessory developers and the OpenDAP HATs, one folder each: radio (SDR based on HackRF Pro), camera (action camera) and outdoor (satellite messaging, GNSS, LoRa mesh) in design; HUB, NAS, oscilloscope, powerbank, recorder, VNA and Wired as concepts |
 
 Faceplates are interchangeable front modules; HATs are accessories mounted on the back. Each HAT is a complete project: hardware, case, firmware, software, Blackbird OS package, its own tooling and, where useful, on-board AI.
 
@@ -59,7 +52,7 @@ Faceplates are interchangeable front modules; HATs are accessories mounted on th
 | Software libraries others build on: SDK, design system, schemas | [MPL-2.0](https://www.mozilla.org/MPL/2.0/) |
 | Firmware, project templates | [MIT](https://opensource.org/license/mit) |
 | Documentation, specifications, manuals, renders, project assets | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Generic shared assets others can build on (`blender-lib/shared/`) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Generic shared assets others can build on (`libs/blender/shared/`) | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 
 Changes to anything OpenDAP publishes stay open. What others build on top (their own hardware, firmware or software) is theirs to license.
 
