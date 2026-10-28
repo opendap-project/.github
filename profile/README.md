@@ -38,8 +38,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [blackbird-ui](https://github.com/opendap-project/blackbird-ui) | Blackbird UI: the Engineered Matter design system, tokens, icons and the UI of Blackbird OS |
 | | [blackbird-os](https://github.com/opendap-project/blackbird-os) | The Blackbird OS distribution: the image definition and releases |
 | | [virtual-devices](https://github.com/opendap-project/virtual-devices) | Virtual OpenDAP devices for development on a computer: hardware layers, models, the emulator tool |
-| Desktop and CLI | [desktop](https://github.com/opendap-project/desktop) | OpenDAP Desktop, the desktop app (Rust) |
-| | [cli](https://github.com/opendap-project/cli) | The `opendap` command-line tool, for advanced users and package developers |
+| Desktop and CLI | [host](https://github.com/opendap-project/host) | What runs on the user's computer: the `opendap` command-line tool, for advanced users and package developers, and OpenDAP Desktop, the desktop app (Rust) |
 | Developer Toolkit | [tools](https://github.com/opendap-project/tools) | Maintainers' tools, one folder per domain: host setup; image, sysroot, cross-build and deploy; fab packages, CAD exports, part data and the component export contract; verification from simulations and captured samples; shared pre-commit hooks |
 | | [claude-plugins](https://github.com/opendap-project/claude-plugins) | Contributor skills and a commit-check hook for working in OpenDAP repositories |
 | Libraries | [libs](https://github.com/opendap-project/libs) | Shared design libraries, one folder per tool: KiCad symbols, footprints, 3D models and fab design rules; per-part records and the manifest of datasheets and vendor models; FreeCAD mechanical parts; Blender materials, models and scenes |
