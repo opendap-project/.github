@@ -34,10 +34,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by classic portable music players |
 | Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | OpenDAP HAT Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
-| Software | [system](https://github.com/opendap-project/system) | Blackbird OS system software and SDK (Rust) |
-| | [blackbird-ui](https://github.com/opendap-project/blackbird-ui) | Blackbird UI: the Engineered Matter design system, tokens, icons and the UI of Blackbird OS |
-| | [blackbird-os](https://github.com/opendap-project/blackbird-os) | The Blackbird OS distribution: the image definition and releases |
-| | [virtual-devices](https://github.com/opendap-project/virtual-devices) | Virtual OpenDAP devices for development on a computer: hardware layers, models, the emulator tool |
+| Software | [blackbird](https://github.com/opendap-project/blackbird) | Blackbird OS, the device platform of OpenDAP: the OS image, system software in Rust, Blackbird UI and the virtual devices |
 | Desktop and CLI | [host](https://github.com/opendap-project/host) | What runs on the user's computer: the `opendap` command-line tool, for advanced users and package developers, and OpenDAP Desktop, the desktop app (Rust) |
 | Developer Toolkit | [tools](https://github.com/opendap-project/tools) | Maintainers' tools, one folder per domain: host setup; image, sysroot, cross-build and deploy; fab packages, CAD exports, part data and the component export contract; verification from simulations and captured samples; shared pre-commit hooks |
 | | [claude-plugins](https://github.com/opendap-project/claude-plugins) | Contributor skills and a commit-check hook for working in OpenDAP repositories |
