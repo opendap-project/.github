@@ -40,11 +40,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [virtual-devices](https://github.com/opendap-project/virtual-devices) | Virtual OpenDAP devices for development on a computer: hardware layers, models, the emulator tool |
 | Desktop and CLI | [desktop](https://github.com/opendap-project/desktop) | OpenDAP Desktop, the desktop app (Rust) |
 | | [cli](https://github.com/opendap-project/cli) | The `opendap` command-line tool, for advanced users and package developers |
-| Developer Toolkit | [toolkit-host](https://github.com/opendap-project/toolkit-host) | Maintainers' host setup |
-| | [toolkit-image](https://github.com/opendap-project/toolkit-image) | Image, sysroot, cross-build and deploy tools |
-| | [toolkit-hardware](https://github.com/opendap-project/toolkit-hardware) | Fab packages, CAD exports, part data and the component export contract |
-| | [toolkit-verify](https://github.com/opendap-project/toolkit-verify) | Verification from simulations and captured samples |
-| | [toolkit-hooks](https://github.com/opendap-project/toolkit-hooks) | Shared pre-commit hooks |
+| Developer Toolkit | [tools](https://github.com/opendap-project/tools) | Maintainers' tools, one folder per domain: host setup; image, sysroot, cross-build and deploy; fab packages, CAD exports, part data and the component export contract; verification from simulations and captured samples; shared pre-commit hooks |
 | | [claude-plugins](https://github.com/opendap-project/claude-plugins) | Contributor skills and a commit-check hook for working in OpenDAP repositories |
 | Libraries | [kicad-lib](https://github.com/opendap-project/kicad-lib) | KiCad symbols, footprints, 3D models and fab design rules |
 | | [freecad-lib](https://github.com/opendap-project/freecad-lib) | FreeCAD mechanical parts |
