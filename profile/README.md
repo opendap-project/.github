@@ -42,10 +42,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [cli](https://github.com/opendap-project/cli) | The `opendap` command-line tool, for advanced users and package developers |
 | Developer Toolkit | [tools](https://github.com/opendap-project/tools) | Maintainers' tools, one folder per domain: host setup; image, sysroot, cross-build and deploy; fab packages, CAD exports, part data and the component export contract; verification from simulations and captured samples; shared pre-commit hooks |
 | | [claude-plugins](https://github.com/opendap-project/claude-plugins) | Contributor skills and a commit-check hook for working in OpenDAP repositories |
-| Libraries | [kicad-lib](https://github.com/opendap-project/kicad-lib) | KiCad symbols, footprints, 3D models and fab design rules |
-| | [freecad-lib](https://github.com/opendap-project/freecad-lib) | FreeCAD mechanical parts |
-| | [blender-lib](https://github.com/opendap-project/blender-lib) | Blender materials, models and scenes |
-| | [parts-lib](https://github.com/opendap-project/parts-lib) | Per-part spec sheets and the manifest of datasheets and vendor models |
+| Libraries | [libs](https://github.com/opendap-project/libs) | Shared design libraries, one folder per tool: KiCad symbols, footprints, 3D models and fab design rules; per-part records and the manifest of datasheets and vendor models; FreeCAD mechanical parts; Blender materials, models and scenes |
 | Official HATs | [hat-powerbank](https://github.com/opendap-project/hat-powerbank) | Powerbank |
 | | [hat-nas](https://github.com/opendap-project/hat-nas) | SSD and Ethernet |
 | | [hat-camera](https://github.com/opendap-project/hat-camera) | Action camera |
