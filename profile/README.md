@@ -26,12 +26,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 
 | Area | Repository | What it is |
 |---|---|---|
-| The T1 | [t1](https://github.com/opendap-project/t1) | The OpenDAP T1: product requirements, integration, assembly |
-| | [board](https://github.com/opendap-project/board) | The T1's main board, built around the SoC |
-| | [case](https://github.com/opendap-project/case) | The T1's rigid mechanics: core (with basic back cover), faceplate mount |
-| | [faceplate-touch](https://github.com/opendap-project/faceplate-touch) | The T1's default faceplate: touch display, status LED, microphone |
-| | [faceplate-cassette](https://github.com/opendap-project/faceplate-cassette) | Inspired by cassette Walkmans |
-| | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by classic portable music players |
+| The T1 | [t1](https://github.com/opendap-project/t1) | The OpenDAP T1, one folder per component: product requirements, integration and assembly (`product/`), the main board (`board/`), the rigid mechanics (`case/`) and the faceplates (`faceplates/`: touch, the default; cassette; classic) |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
 | Software | [blackbird](https://github.com/opendap-project/blackbird) | Blackbird OS, the device platform of OpenDAP: the OS image, system software in Rust, Blackbird UI and the virtual devices |
 | Desktop and CLI | [host](https://github.com/opendap-project/host) | What runs on the user's computer: the `opendap` command-line tool, for advanced users and package developers, and OpenDAP Desktop, the desktop app (Rust) |
